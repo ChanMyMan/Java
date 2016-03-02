@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app1.RetailStuff">
+   <children>
+      <Button fx:id="submit" layoutX="230.0" layoutY="200.0" mnemonicParsing="false" onAction="#convertButtonListener" prefHeight="77.0" prefWidth="120.0" style="-fx-background-color: #1cdddd;" text="Button" textFill="WHITE" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Label layoutX="24.0" layoutY="23.0" text="What is the wholesale price?" textFill="#e82828">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="350.0" layoutY="23.0" text="What is the mark up percent?" textFill="#db1d1d">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="wholeSale" layoutX="62.0" layoutY="55.0" />
+      <TextField fx:id="percent" layoutX="385.0" layoutY="55.0" />
+      <Label fx:id="outPrint" layoutX="165.0" layoutY="142.0" prefHeight="17.0" prefWidth="282.0" textFill="#e83c3c" />
+   </children>
+</AnchorPane>
