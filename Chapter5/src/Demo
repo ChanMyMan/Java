@@ -1,0 +1,23 @@
+public class StringDemo {
+
+   public static void main(String[] args) {
+  
+   String str1 = "Chan", str2 = "Wolters";
+
+
+   int word = str1.compareTo(str2);
+
+
+   if (word < 0) {
+   System.out.println("str1 is greater than str2");
+   }
+        
+   else if (word == 0) {
+   System.out.println("str1 is equal to str2");
+   }
+        
+   else {
+   System.out.println("str1 is less than str2");
+   }
+   }
+}
