@@ -1,0 +1,21 @@
+
+public class Area {
+	
+	//Area of Circle
+	public static double area(double radius)
+	{
+	return (double)(Math.PI*Math.pow(radius,2));
+	}
+	//Area of Rectangle
+	public static double area(double length, double width, double nice)
+	{
+	return (length * width);
+	}
+	//Area of Cylinder
+	public static double area(double radius, double height)
+	{
+	return (double)(Math.PI*Math.pow(radius,2)*height);
+	}
+
+
+}
